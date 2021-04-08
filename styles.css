@@ -345,3 +345,24 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media (max-width: 760px) {
+    div.nav-bar {
+        justify-content:center;
+    }
+    ul.nav-links {
+        display:grid;
+        padding-left:170px
+    }
+    div.hero-section {
+        display:grid;
+        padding-left:7.5em
+    }
+    div.background {
+        height:360px;
+    }
+    div.snapshot-box-content{
+        display:grid;
+    }
+    
+}
